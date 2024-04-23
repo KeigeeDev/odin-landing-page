@@ -20,6 +20,10 @@ a {
     justify-content: space-between;
 }
 
+.header-logo {
+    font-size: 24px;
+}
+
 .header-nav ul{
     display: flex;
     align-items: center;
@@ -29,5 +33,41 @@ a {
 .header-nav ul li {
     padding: 20px;
     list-style: none;
+}
 
+.header-contents {
+    display: flex;
+    padding: 5% 10%;
+    background-color: #1f2937;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-contents h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 10px;
+}
+
+.header-contents p {
+    font-size: 18px;
+    color: #e5e7eb; 
+    margin: 10px;
+}
+
+.header-contents img {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    text-align: center;
 }
