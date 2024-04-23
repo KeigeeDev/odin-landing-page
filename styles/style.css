@@ -42,10 +42,12 @@ a {
     flex: 1;
     align-items: center;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .header-contents h2 {
     font-size: 48px;
+    font-weight: bolder;
     color: #f9faf8;
     margin: 10px;
 }
@@ -70,4 +72,44 @@ a {
     color: #f9faf8;
     border: none;
     text-align: center;
+}
+
+.main-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.main-field {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-info img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.main-info caption {
+    font-size: 18px;
+    color: #e5e7eb;
 }
