@@ -113,3 +113,21 @@ a {
     font-size: 18px;
     color: #1f2937;
 }
+
+.main-qoute {
+    margin-top: 100px;
+    padding: 10% 10%;
+    background-color: #e5e7eb;
+}
+
+.qoute-text p{
+    margin: 0;
+    font-size: 36px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.qoute-author {
+    font-weight: bolder;
+    text-align: end;
+}
