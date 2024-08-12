@@ -131,3 +131,24 @@ a {
     font-weight: bolder;
     text-align: end;
 }
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
